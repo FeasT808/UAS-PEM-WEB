@@ -1,0 +1,67 @@
+:root { --primary: #0d6efd; --muted: #6c757d; }
+body { font-family: "Poppins", sans-serif; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+
+.profile-img {
+  width: 180px;           
+  height: 180px;
+  border-radius: 50%;    
+  object-fit: cover;     
+  border: 4px solid #dee2e6; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 600px) {
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+.project-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.project-card:hover img {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width: 600px) {
+  .project-card img {
+    height: 180px;
+  }
+}
+
+
+.nav-scrolled {
+  background-color: rgba(255,255,255,0.95) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: background-color 300ms ease, box-shadow 300ms ease;
+}
+.navbar .nav-link { transition: color 200ms; }
