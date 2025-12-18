@@ -51,7 +51,7 @@ if ($result_projects && $result_projects->num_rows > 0) {
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#home">Fadli Haeda Fawwaz</a>
+        <a class="navbar-brand fw-bold" href="#home">Fadli Haedar Fawwaz</a>
         <button
           class="navbar-toggler"
           type="button"
